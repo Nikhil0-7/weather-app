@@ -57,3 +57,39 @@ body {
 .weather-info p {
     margin: 5px 0;
 }
+
+@media (max-width: 768px) {
+    .weather-app {
+        padding: 15px;
+        width: 80%;
+        overflow: hidden;
+    }
+
+    .weather-app h1 {
+        font-size: 20px;
+    }
+
+    .weather-app input,
+    .weather-app button {
+        width: 50%;
+        margin: 5px 0;
+    }
+
+    .weather-info {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .weather-app {
+        padding: 10px;
+    }
+
+    .weather-app h1 {
+        font-size: 18px;
+    }
+
+    .weather-info {
+        font-size: 14px;
+    }
+}
